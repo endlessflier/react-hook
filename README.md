@@ -5,7 +5,8 @@ The CustomerDirectory component (scroll down to find) currently renders a list o
 3.	All fields, except for address2, should be required.
 4.	If the user hits the exit button, none of the customer address details should be altered in the CustomerDirectory component.
 This implementation requires no backend, and can be achieved without the Context API or Redux. On page refresh, all data will be reset back to the initial values, which is to be expected when not saving updated details anywhere besides JS. Please use React hooks, such as useState(), to accomplish this goal. You do not need to import any packages to achieve this goal, but if you wish to, you may. You will be evaluated upon how well you implement common development standards and how efficiently and robustly you've achieved your goal.
-Bonus points:
+
+Additional points:
 
 ●	Save updated customer data to localStorage so that it retains the updated values on page refresh.
 
